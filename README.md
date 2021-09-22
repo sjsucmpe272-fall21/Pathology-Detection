@@ -1,17 +1,17 @@
 # Team-Project-23
 
 
-1. Face mask wearing detection
+## 1. Face mask wearing detection
 ### Problem Statement:
-A ML based project for detecting whether a person is wearing a mask or not.
+- A ML based project for detecting whether a person is wearing a mask or not.
 
 ### Abstract:
-Covid-19 pandemic has caused wearing a mask to be a mandatory precaution in public places. In restaurants/offices/malls, people are required to wear a mask and this is checked at the entry of the public place itself. As of now, a person is usually in-charge of making sure people don’t pull down their mask from their nose/mouth.  As the world is gradually opening up, governments/offices need to track if public places/employers are following Covid guidelines that are mandated.
+- Covid-19 pandemic has caused wearing a mask to be a mandatory precaution in public places. In restaurants/offices/malls, people are required to wear a mask and this is checked at the entry of the public place itself. As of now, a person is usually in-charge of making sure people don’t pull down their mask from their nose/mouth.  As the world is gradually opening up, governments/offices need to track if public places/employers are following Covid guidelines that are mandated.
 A lot of man-power can be saved if we can detect whether people are wearing face masks through surveillance cameras. This will help governments/employers in monitoring covid regulations violations with minimal human intervention.
 
 
 ### Approach
-First we will start by collecting data from the various open source sites available and than next we will apply the data preprocessing step like resizing the image, data augmentation as per requirement. Than we will train a neural network using available algorithm like mobilenet and for these tasks we will be using libraries like tensorflow, keras, sklearn. Than we will use the model to predict on live video using libraries like opencv.
+- First we will start by collecting data from the various open source sites available and than next we will apply the data preprocessing step like resizing the image, data augmentation as per requirement. Than we will train a neural network using available algorithm like mobilenet and for these tasks we will be using libraries like tensorflow, keras, sklearn. Than we will use the model to predict on live video using libraries like opencv.
 
 ### Persona
 - project can be used by various store owners, shopping mall and other public places where wearing mask is compulsory to detect people not following the rules.
@@ -20,7 +20,7 @@ First we will start by collecting data from the various open source sites availa
 - From various online resources
 
 
-2. Pathology Classification
+## 2. Pathology Classification
 
 ### Problem Statement
 - To detect retinal diseases from given OCT image. - choroidal neovascularization (CNV), drusen, and diabetic macular edema (DME). 
@@ -38,7 +38,7 @@ First we will start by collecting data from the various open source sites availa
 - https://www.kaggle.com/paultimothymooney/kermany2018
 
 
-3. Vehicle Detection and Counting
+## 3. Vehicle Detection and Counting
 ### Problem Statement:
 - To count the number of vehicles entering and leaving a particular place.
 
