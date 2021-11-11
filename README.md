@@ -1,26 +1,6 @@
 # Team-Project-23
 
-
-## 1. Face mask wearing detection
-### Problem Statement:
-- A ML based project for detecting whether a person is wearing a mask or not.
-
-### Abstract:
-- Covid-19 pandemic has caused wearing a mask to be a mandatory precaution in public places. In restaurants/offices/malls, people are required to wear a mask and this is checked at the entry of the public place itself. As of now, a person is usually in-charge of making sure people don’t pull down their mask from their nose/mouth.  As the world is gradually opening up, governments/offices need to track if public places/employers are following Covid guidelines that are mandated.
-A lot of man-power can be saved if we can detect whether people are wearing face masks through surveillance cameras. This will help governments/employers in monitoring covid regulations violations with minimal human intervention.
-
-
-### Approach
-- First we will start by collecting data from the various open source sites available and than next we will apply the data preprocessing step like resizing the image, data augmentation as per requirement. Than we will train a neural network using available algorithm like mobilenet and for these tasks we will be using libraries like tensorflow, keras, sklearn. Than we will use the model to predict on live video using libraries like opencv.
-
-### Persona
-- project can be used by various store owners, shopping mall and other public places where wearing mask is compulsory to detect people not following the rules.
-
-### Dataset
-- From various online resources
-
-
-## 2. Pathology Classification
+##  Pathology Classification
 
 ### Problem Statement
 - To detect retinal diseases from given OCT image. - choroidal neovascularization (CNV), drusen, and diabetic macular edema (DME). 
@@ -36,25 +16,5 @@ A lot of man-power can be saved if we can detect whether people are wearing face
 
 ### Dataset links
 - https://www.kaggle.com/paultimothymooney/kermany2018
-
-
-## 3. Vehicle Detection and Counting
-### Problem Statement:
-- To count the number of vehicles entering and leaving a particular place.
-
-### Abstract
-Increasing traffic volume in urban cities is a growing concern for today’s world. There are multiple reasons for traffic problems and accidents. Urbanization, which is movement of people from rural to urban areas, is one of the most important reason for increase in number of vehicles in big cities. In contrast to this, road sizes have not increased a lot in the past years. This has resulted in increased number of accidents, congestion, pollution and a lot of other problems. Absence of real-time traffic information also leads to traffic problems.
-To solve the problem explained, we are proposing a vehicle counting and classification system. This system will take as input the video recordings from surveillance systems and provide as output the number of vehicles in a palce and also the types and sizes of vehicles in that area in a given time frame.
-
-### Approach
-- For this project we will be using libraries like opencv and numpy. The process is simple: 
-Frame differencing - a technique where the computer checks the difference between two video frames.
-Image thresholding -  Thresholding is a very popular segmentation technique, used for separating an object considered as a foreground from its background. A threshold is a value which has two regions on its either side i.e. below the threshold or above the threshold. 
-Contour finding - we can detect the borders of objects, and localize them easily in an image.
-Image dilation - Dilation is a morphological operation used to enhance the features of an image. 
-And finally, vehicle counting:
-
-### Persona
-- This project can be used in many areas like traffic management, crowd counting, vehicle number plate, sports, and many more.
 
 
